@@ -102,7 +102,6 @@ class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter an arithmetic expression (e.g. 2 + 3): ");
         String input = scanner.nextLine();
         String result = calc(input);
         if (result == ""){
